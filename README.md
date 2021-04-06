@@ -10,4 +10,4 @@ I wrote all of the code for this site. It is a portfolio site that will continue
 
 <!-- Link to the deployed site -->
 
-![Professional Portfolio](https://hanfernan.github.io/Professional-Portfolio/)
+[Professional Portfolio](https://hanfernan.github.io/Professional-Portfolio/)
