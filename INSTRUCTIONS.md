@@ -121,7 +121,7 @@ Your GitHub profile must contain at least the following items:
 <!-- DONE -->
 9. Commit history. Every pinned repository should have at least 20 commits.
 
-TODO:
+<!-- DONE -->
 ### 3. Updated Resume
 
 💁 Need help building a resume? Check out the [Career Services milestone resources](https://mycareerspot.org/resume).
