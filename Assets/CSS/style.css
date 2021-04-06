@@ -1,0 +1,12 @@
+.project-card {
+  width: 70rem;
+}
+
+.project-img {
+  width: 50rem;
+  align-items: center;
+}
+
+.project-title {
+  text-align: center;
+}

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Assets/CSS/reset.css" />
-    <link rel="stylesheet" href="Assets/CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
     <title>HFM</title>
   </head>
   <body>
@@ -38,44 +38,59 @@
     </header>
     <main class="d-flex flex-column bg-light">
       <!-- About Me section -->
-      <section id="about" class="d-flex flex-row">
-        <h2 class="text-success">About Me:</h2>
-        <img src="Assets/Images/circle-headshot.png" alt="head shot" />
-        <p><b>Location:</b> Atlanta, GA</p>
-        <p><b>Languages:</b> HTML5, JavaScript, CSS</p>
-        <p><b>Frameworks:</b> Bootstrap, JQuery</p>
-        <p>
-          Hi, I'm Hannah! I and a Junior Web Developer with a detail-oriented
-          eye and an excitement for innovation. I have an extensive background
-          in art and design and I love problem-solving. I'm excited to work on
-          more projects, so please feel free to reach out via my
-          <a href="#contact">contact info</a>!
-        </p>
-      </section>
-      <!-- Projects section -->
-      <section id="projects">
-        <h2 class="text-success">Projects</h2>
-        <!-- Space dashboard -->
-        <div id="space-dash">
-          <h3>
-            <a href="https://joshwrightdev.github.io/Project-1/" target="_blank"
-              >Space Dash</a
-            >
-          </h3>
+      <section id="about" class="d-flex flex-row m-2 p-2">
+        <div class="card">
+          <h2 class="card-title text-success">About Me:</h2>
           <img
-            class="img-fluid"
-            src="Assets/Images/space-dash.png"
-            alt="space dashboard screen shot"
+            src="Assets/Images/circle-headshot.png"
+            class="card-img"
+            alt="head shot"
           />
+        </div>
+        <div class="card">
+          <p><b>Location:</b> Atlanta, GA</p>
+          <p><b>Languages:</b> HTML5, JavaScript, CSS</p>
+          <p><b>Frameworks:</b> Bootstrap, JQuery</p>
           <p>
-            <a href="https://github.com/Joshwrightdev/Project-1" target="_blank"
-              >GitHub Repository</a
-            >
+            Hi, I'm Hannah! I and a Junior Web Developer with a detail-oriented
+            eye and an excitement for innovation. I have an extensive background
+            in art and design and I love problem-solving. I'm excited to work on
+            more projects, so please feel free to reach out via my
+            <a href="#contact">contact info</a>!
           </p>
         </div>
+      </section>
+      <!-- Projects section -->
+      <section id="projects" class="d-flex flex-column m-2 p-2">
+        <h2 class="section-title text-success">Projects</h2>
+        <!-- Space dashboard -->
+        <div id="space-dash" class="project-card card">
+          <div class="card-header">
+            <h3 class="project-title card-title">
+              <a
+                href="https://joshwrightdev.github.io/Project-1/"
+                target="_blank"
+                >Space Dash</a
+              >
+            </h3>
+          </div>
+          <div class="card-body flex-column">
+            <img
+              src="Assets/Images/space-dash.png"
+              class="project-img img-fluid card-img"
+              alt="space dashboard screen shot"
+            />
+            <a
+              href="https://github.com/Joshwrightdev/Project-1"
+              target="_blank"
+              class="card-link"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
         <!-- password generator -->
-        <div id="password">
-          <h3>
+        <!-- <div id="password" class="card">
+          <h3 class="card-title">
             <a
               href="https://hanfernan.github.io/Javascript-Password-Generator/"
               target="_blank"
@@ -84,6 +99,7 @@
           </h3>
           <img
             src="Assets/Images/password-generator.png"
+            class="card-img"
             class="img-fluid"
             alt="password generator screenshot"
           />
@@ -94,16 +110,17 @@
               >GitHub Repository</a
             >
           </p>
-        </div>
+        </div> -->
         <!-- Code Quiz -->
-        <div id="code-quiz">
-          <h3>
+        <!-- <div id="code-quiz" class="project-card card">
+          <h3 class="card-title">
             <a href="https://hanfernan.github.io/Code-Quiz/" target="_blank"
               >Code Quiz</a
             >
           </h3>
           <img
             src="Assets/Images/code-quiz.PNG"
+            class="card-img"
             class="img-fluid"
             alt="javascript code quiz screenshot"
           />
@@ -112,10 +129,10 @@
               >GitHub Repository</a
             >
           </p>
-        </div>
+        </div> -->
       </section>
       <!-- Contact section -->
-      <section id="contact">
+      <section id="contact" class="d-flex flex-column m-2 p-2">
         <h2 class="text-success">Contact Me!</h2>
         <ul class="contact">
           <li>850.384.1535</li>
