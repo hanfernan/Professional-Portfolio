@@ -1,6 +1,19 @@
+nav {
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
 footer {
   text-align: center;
 }
+
+.card {
+  border: none;
+}
+
 .project-card {
   width: 70rem;
 }
@@ -12,4 +25,8 @@ footer {
 
 .project-title {
   text-align: center;
+}
+
+.contact a {
+  color: black;
 }

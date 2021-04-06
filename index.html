@@ -15,56 +15,54 @@
     <title>HFM</title>
   </head>
   <body>
-    <header class="d-flex bg-success text-white">
-      <div>
+    <!-- <header class="d-flex bg-success text-white p-3"> -->
+      <!-- <div>
         <h1>Hannah Fernandes-Martin</h1>
-        <h2>Web Developer</h2>
-      </div>
+      </div> -->
       <!-- Nav Bar -->
-      <nav class="col-4">
-        <ul class="d-flex flex column justify-content-between">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a
+      <nav class="navbar nav-expand-lg bg-success">
+        <h1 class="navbar-text">Hannah Fernandes-Martin</h1>
+        <div class="d-flex flex-row navbar-nav">
+          <a class="nav-item nav-link p-2" href="#about">About</a>
+          <a class="nav-item nav-link p-2" href="#projects">Projects</a>
+          <a class="nav-item nav-link p-2" href="#contact">Contact</a>
+          
+            <a class="nav-item nav-link p-2"
               href="Assets/Web Development _ Full Stack Resume.pdf"
               target="_blank"
               >Resume</a
             >
-          </li>
-        </ul>
+        </div>
       </nav>
-    </header>
+    <!-- </header> -->
     <main class="d-flex flex-column bg-light">
       <!-- About Me section -->
       <section id="about" class="d-flex flex-row m-2 p-2">
         <div class="card">
-          <h2 class="card-title text-success">About Me:</h2>
+          <h2 class="card-title text-success">About Me</h2>
           <img
             src="Assets/Images/circle-headshot.png"
-            class="card-img"
+            class="card-img p-5"
             alt="head shot"
           />
         </div>
-        <div class="card">
-          <p><b>Location:</b> Atlanta, GA</p>
-          <p><b>Languages:</b> HTML5, JavaScript, CSS</p>
-          <p><b>Frameworks:</b> Bootstrap, JQuery</p>
-          <p>
+        <div class="card ml-5 p-5">
+          <p><b class="card-subtitle text-success">Location:</b> Atlanta, GA</p>
+          <p><b class="card-subtitle text-success">Languages:</b> HTML5, JavaScript, CSS</p>
+          <p><b class="card-subtitle text-success">Frameworks:</b> Bootstrap, JQuery</p>
+          <p class="card-text">
             Hi, I'm Hannah! I and a Junior Web Developer with a detail-oriented
             eye and an excitement for innovation. I have an extensive background
             in art and design and I love problem-solving. I'm excited to work on
-            more projects, so please feel free to reach out via my
-            <a href="#contact">contact info</a>!
+            more projects, so please feel free to reach out via my <span><a href="#contact">contact info</a></span>!
           </p>
         </div>
       </section>
       <!-- Projects section -->
-      <section id="projects" class="d-flex flex-column m-2 p-2">
-        <h2 class="section-title text-success">Projects</h2>
+      <!-- <section id="projects" class="d-flex flex-column m-2 p-2">
+        <h2 class="section-title text-success">Projects</h2> -->
         <!-- Space dashboard -->
-        <div id="space-dash" class="project-card card">
+        <!-- <div id="space-dash" class="project-card card">
           <div class="card-header">
             <h3 class="project-title card-title">
               <a
@@ -87,7 +85,7 @@
               >GitHub Repository</a
             >
           </div>
-        </div>
+        </div> -->
         <!-- password generator -->
         <!-- <div id="password" class="card">
           <h3 class="card-title">
@@ -132,26 +130,26 @@
         </div> -->
       </section>
       <!-- Contact section -->
-      <section id="contact" class="d-flex flex-column m-2 p-2">
+      <section id="contact" class="d-flex flex-row m-2 p-2">
         <h2 class="text-success">Contact Me!</h2>
-        <ul class="contact">
-          <li>850.384.1535</li>
-          <li><a href="mailto:hfm11295@gmail.com" target="_blank">Email</a></li>
-          <li>
+        <div class="contact d-flex flex-row">
+          <div class="p-3 align-item-center">850.384.1535</div>
+          <div class="p-3 align-item-center"><a href="mailto:hfm11295@gmail.com" target="_blank">Email</a></div>
+          <div class="p-3 align-item-center">
             <a href="https://github.com/hanfernan" target="_blank">GitHub</a>
-          </li>
-          <li>
+          </div>
+          <div class="p-3 align-item-center">
             <a
               href="https://www.linkedin.com/in/hannah-fernandes-martin/"
               target="_blank"
               >LinkedIn</a
             >
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="bg-success text-white">
-      <h3>Made with ❤️ by Hannah 2021</h3>
+    <footer class="bg-success text-white p-3">
+      <h5>Made with ❤️ by Hannah 2021</h>
     </footer>
   </body>
 </html>
