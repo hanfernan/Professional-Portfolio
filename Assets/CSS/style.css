@@ -12,21 +12,30 @@ footer {
 
 .card {
   border: none;
+  background-color: none;
 }
 
 .project-card {
   width: 70rem;
+  align-self: center;
 }
 
 .project-img {
-  width: 50rem;
-  align-items: center;
+  height: 100%;
 }
 
 .project-title {
   text-align: center;
 }
 
+.contact-header {
+  width: 20%;
+}
+
 .contact a {
   color: black;
+}
+
+#projects a {
+  color: white;
 }
