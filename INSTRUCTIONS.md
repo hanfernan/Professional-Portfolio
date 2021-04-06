@@ -36,26 +36,26 @@ If you are opting out of career services, this is _still a required assignment_.
 
 Your updated portfolio should:
 
-TODO:
+<!-- DONE -->
 1. Display your full name, email, and phone number
 
-TODO:
+<!-- DONE -->
 2. Have links to your GitHub profile and LinkedIn profile
 
-TODO:
+<!-- DONE -->
 3. Have a link to a downloadable PDF of your resume
 
 4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
-    TODO:
+    <!-- DONE -->
     * Project title
     
-    TODO:
+    <!-- DONE -->
     * Link to the deployed version
 
-    TODO:
+    <!-- DONE -->
     * Link to the GitHub repository
 
-    TODO:
+    <!-- DONE -->
     * Screenshot of the deployed application
 
 TODO:

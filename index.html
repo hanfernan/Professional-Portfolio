@@ -6,48 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Assets/CSS/reset.css" />
     <link rel="stylesheet" href="Assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <title>HFM</title>
   </head>
   <body>
-    <header>
-      <h1>Hannah Fernandes-Martin</h1>
-      <nav>
-        <ul>
+    <header class="d-flex bg-success text-white">
+      <div>
+        <h1>Hannah Fernandes-Martin</h1>
+        <h2>Web Developer</h2>
+      </div>
+      <!-- Nav Bar -->
+      <nav class="col-4">
+        <ul class="d-flex flex column justify-content-between">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li>Resume</li>
+          <li>
+            <a
+              href="Assets/Web Development _ Full Stack Resume .pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="about">
-        <h2>About</h2>
-        <img src="Assets/Images/smaller headshot.jpeg" alt="headshot" />
+    <main class="d-flex flex-column bg-light">
+      <!-- About Me section -->
+      <section id="about" class="d-flex flex-row">
+        <h2 class="text-success">About Me:</h2>
+        <img src="Assets/Images/circle-headshot.png" alt="head shot" />
+        <p><b>Location:</b> Atlanta, GA</p>
+        <p><b>Languages:</b> HTML5, JavaScript, CSS</p>
+        <p><b>Frameworks:</b> Bootstrap, JQuery</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-          architecto maiores quasi excepturi, eos dolores. At libero sint ut
-          facilis iste ducimus impedit aspernatur modi dolore minus. Earum,
-          dolorum tempora. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Delectus sunt quam, repudiandae modi assumenda accusamus
-          deserunt voluptas eos odio? Possimus quam vitae magni consectetur
-          earum accusantium hic veniam similique eum?
+          Hi, I'm Hannah! I and a Junior Web Developer with a detail-oriented
+          eye and an excitement for innovation. I have an extensive background
+          in art and design and I love problem-solving. I'm excited to work on
+          more projects, so please feel free to reach out via my
+          <a href="#contact">contact info</a>!
         </p>
       </section>
+      <!-- Projects section -->
       <section id="projects">
-        <h2>Projects</h2>
+        <h2 class="text-success">Projects</h2>
+        <!-- Space dashboard -->
         <div id="space-dash">
-          <h3>Space Dash</h3>
+          <h3>
+            <a href="https://joshwrightdev.github.io/Project-1/" target="_blank"
+              >Space Dash</a
+            >
+          </h3>
+          <img
+            class="img-fluid"
+            src="Assets/Images/space-dash.png"
+            alt="space dashboard screen shot"
+          />
+          <p>
+            <a href="https://github.com/Joshwrightdev/Project-1" target="_blank"
+              >GitHub Repository</a
+            >
+          </p>
         </div>
+        <!-- password generator -->
         <div id="password">
-          <h3>Random Password Generator</h3>
+          <h3>
+            <a
+              href="https://hanfernan.github.io/Javascript-Password-Generator/"
+              target="_blank"
+              >Random Password Generator</a
+            >
+          </h3>
+          <img
+            src="Assets/Images/password-generator.png"
+            class="img-fluid"
+            alt="password generator screenshot"
+          />
+          <p>
+            <a
+              href="https://github.com/hanfernan/Javascript-Password-Generator"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </p>
         </div>
+        <!-- Code Quiz -->
         <div id="code-quiz">
-          <h3>Code Quiz</h3>
+          <h3>
+            <a href="https://hanfernan.github.io/Code-Quiz/" target="_blank"
+              >Code Quiz</a
+            >
+          </h3>
+          <img
+            src="Assets/Images/code-quiz.PNG"
+            class="img-fluid"
+            alt="javascript code quiz screenshot"
+          />
+          <p>
+            <a href="https://github.com/hanfernan/Code-Quiz" target="_blank"
+              >GitHub Repository</a
+            >
+          </p>
         </div>
       </section>
+      <!-- Contact section -->
       <section id="contact">
-        <h2>Contact Me!</h2>
+        <h2 class="text-success">Contact Me!</h2>
         <ul class="contact">
           <li>850.384.1535</li>
           <li><a href="mailto:hfm11295@gmail.com" target="_blank">Email</a></li>
@@ -61,12 +130,11 @@
               >LinkedIn</a
             >
           </li>
-          <li><a href="#" target="_blank">Resume</a></li>
         </ul>
       </section>
     </main>
-    <footer>
-      <h3>Made with ❤️ by Hannah</h3>
+    <footer class="bg-success text-white">
+      <h3>Made with ❤️ by Hannah 2021</h3>
     </footer>
   </body>
 </html>
