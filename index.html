@@ -12,16 +12,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="Assets/CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <title>HFM</title>
   </head>
   <body>
-    <!-- <header class="d-flex bg-success text-white p-3"> -->
+    <!-- <header class="d-flex bg-dark text-dark p-3"> -->
       <!-- <div>
         <h1>Hannah Fernandes-Martin</h1>
       </div> -->
       <!-- Nav Bar -->
-      <nav class="navbar nav-expand-lg bg-success">
-        <h1 class="navbar-text">Hannah Fernandes-Martin</h1>
+      <nav class="navbar nav-expand-lg bg-dark">
+        <h1 class="heading navbar-text">Hannah Fernandes-Martin</h1>
         <div class="d-flex flex-row navbar-nav">
           <a class="nav-item nav-link p-2" href="#about">About</a>
           <a class="nav-item nav-link p-2" href="#projects">Projects</a>
@@ -35,11 +37,11 @@
         </div>
       </nav>
     <!-- </header> -->
-    <main class="d-flex flex-column bg-light">
+    <main class="d-flex flex-column">
       <!-- About Me section -->
       <section id="about" class="d-flex flex-row m-2 p-2">
-        <div class="card">
-          <h2 class="card-title text-success">About Me</h2>
+        <div class="about-card card">
+          <h2 class="heading card-title text-dark">About Me</h2>
           <img
             src="Assets/Images/circle-headshot.png"
             class="card-img p-5"
@@ -47,9 +49,9 @@
           />
         </div>
         <div class="card ml-5 p-5">
-          <p><b class="card-subtitle text-success">Location:</b> Atlanta, GA</p>
-          <p><b class="card-subtitle text-success">Languages:</b> HTML5, JavaScript, CSS</p>
-          <p><b class="card-subtitle text-success">Frameworks:</b> Bootstrap, JQuery</p>
+          <p><b class="card-subtitle text-dark">Location:</b> Atlanta, GA</p>
+          <p><b class="card-subtitle text-dark">Languages:</b> HTML5, JavaScript, CSS</p>
+          <p><b class="card-subtitle text-dark">Frameworks:</b> Bootstrap, JQuery</p>
           <p class="card-text">
             Hi, I'm Hannah! I'm a Junior Web Developer with a detail-oriented
             eye and an excitement for innovation. I have an extensive background
@@ -60,18 +62,18 @@
       </section>
       <!-- Projects section -->
       <section id="projects" class="d-flex flex-column m-2 p-2">
-        <h2 class="section-title text-success">Projects</h2>
+        <h2 class="heading section-title text-dark">Projects</h2>
         <!-- Space dashboard -->
         <div class="project-card card m-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-dark">
             <h3 class="project-title card-title">
               <a
-                href="https://joshwrightdev.github.io/Project-1/"
+                href="https://joshwrightdev.github.io/Project-1/" class="text-white"
                 target="_blank"
                 >Space Dashboard</a
               >
             </h3>
-            <h5 class="project-title"><a href="https://github.com/Joshwrightdev/Project-1" target="_blank" class="card-link"> GitHub Repository </a></h5>
+            <h5 class="project-title"><a href="https://github.com/Joshwrightdev/Project-1" target="_blank" class="card-link text-white"> GitHub Repository </a></h5>
           </div>
           <div class="card-body flex-column">
             <img
@@ -83,15 +85,15 @@
         </div>
         <!-- password generator -->
         <div class="project-card card m-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-dark">
             <h3 class="project-title card-title">
               <a
-                href="https://hanfernan.github.io/Javascript-Password-Generator/"
+                href="https://hanfernan.github.io/Javascript-Password-Generator/" class="text-white"
                 target="_blank"
                 >Random Password Generator</a
               >
             </h3>
-            <h5 class="project-title"><a href="https://github.com/hanfernan/Javascript-Password-Generator" target="_blank" class="card-link"> GitHub Repository </a></h5>
+            <h5 class="project-title"><a href="https://github.com/hanfernan/Javascript-Password-Generator" target="_blank" class="card-link text-white"> GitHub Repository </a></h5>
           </div>
           <div class="card-body flex-column">
             <img
@@ -103,15 +105,15 @@
         </div>
         <!-- Code Quiz -->
         <div class="project-card card m-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-dark">
             <h3 class="project-title card-title">
               <a
-                href="https://hanfernan.github.io/Code-Quiz/"
+                href="https://hanfernan.github.io/Code-Quiz/" class="text-white"
                 target="_blank"
                 >Code Quiz</a
               >
             </h3>
-            <h5 class="project-title"><a href="https://github.com/hanfernan/Code-Quiz" target="_blank" class="card-link"> GitHub Repository </a></h5>
+            <h5 class="project-title"><a href="https://github.com/hanfernan/Code-Quiz" target="_blank" class="card-link text-white"> GitHub Repository </a></h5>
           </div>
           <div class="card-body flex-column">
             <img
@@ -124,7 +126,7 @@
       </section>
       <!-- Contact section -->
       <section id="contact" class="d-flex flex-row m-2 p-2">
-        <div class="contact-header"><h2 class="text-success align-self-center">Contact Me!</h2></div>
+        <div class="heading contact-header"><h2 class="text-dark align-self-center">Contact Me!</h2></div>
         <div class="contact container-fluid d-flex flex-row">
           <div class="align-self-center p-3">850.384.1535</div>
           <div class="align-self-center p-3"><a href="mailto:hfm11295@gmail.com" target="_blank">Email</a></div>
@@ -141,7 +143,7 @@
         </div>
       </section>
     </main>
-    <footer class="bg-success text-white p-3">
+    <footer class="bg-dark text-white p-3">
       <h5>Made with ❤️ by Hannah 2021</h>
     </footer>
   </body>

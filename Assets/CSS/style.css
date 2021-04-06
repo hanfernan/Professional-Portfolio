@@ -1,3 +1,6 @@
+body {
+  background-color: white;
+}
 nav {
   color: white;
 }
@@ -10,11 +13,16 @@ footer {
   text-align: center;
 }
 
+.heading {
+  font-family: "Montserrat Alternates", sans-serif;
+}
 .card {
   border: none;
   background-color: none;
 }
-
+.about-card {
+  background-color: white;
+}
 .project-card {
   width: 70rem;
   align-self: center;
@@ -28,6 +36,9 @@ footer {
   text-align: center;
 }
 
+.contact {
+  color: black;
+}
 .contact-header {
   width: 20%;
 }
@@ -37,5 +48,5 @@ footer {
 }
 
 #projects a {
-  color: white;
+  color: black;
 }
