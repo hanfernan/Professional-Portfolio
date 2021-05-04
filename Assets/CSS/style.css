@@ -1,6 +1,6 @@
 body {
-  background-image: url(../Images/repeated-square-dark.png);
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 nav {
   color: white;
